@@ -117,7 +117,7 @@ nav .fa{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 h1{
     font-size: 36px;
@@ -215,7 +215,7 @@ h3{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .facilities-col{
@@ -332,7 +332,7 @@ color: red;
 /* ------------about us----------- */
 
 .sub-header{
-    height: 50vh;
+    height: 70vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/background.jpg);
     background-position: center;
@@ -346,8 +346,8 @@ color: red;
 .about-us{
     width: 80%;
     margin: auto;
-    padding-top: 80px;
-    padding-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 .about-col{
     flex-basis: 48%;
