@@ -3,22 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>About Us - Eduford</title>
     <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-    />
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
   </head>
   <body>
+    <!-- Header Section -->
     <section class="sub-header">
       <nav>
-        <a href="index.html"><img src="images/logo.png" /></a>
+        <a href="index.html"><img src="images/logo.png" alt="Eduford Logo" /></a>
         <div class="nav-links" id="navLinks">
           <i class="fa fa-times" onclick="hideMenu()"></i>
           <ul>
@@ -34,40 +30,43 @@
       <h1>About Us</h1>
     </section>
 
+    <!-- About Content -->
     <section class="about-us">
-       <div class="row">
-          <div class="about-col">
-            <h1>We are the worlds largest <br>university</h1>
-            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum excepturi libero, ratione neque veritatis in facere error nam consequuntur ad ut. Ipsa quidem soluta, nostrum delectus eaque quos deserunt corrupti dolores nam dolor! Nobis enim perspiciatis, fugiat omnis esse cum rem explicabo illum iste voluptatem necessitatibus minus quos laborum totam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, culpa?</P>
-            <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
-          </div>
-          <div class="about-col">
-            <img src="images/about.jpg">
-          </div>
-       </div>
+      <div class="row">
+        <div class="about-col">
+          <h1>Empowering Students to Shape Their Future</h1>
+          <p>
+            At Eduford, we believe in the power of quality education to transform lives. 
+            We offer a wide range of professional and academic courses designed to equip students 
+            with the knowledge, skills, and confidence to achieve their goals. 
+            With a passionate team of educators, state-of-the-art infrastructure, and a global perspective, 
+            we prepare students to thrive in today’s competitive world.
+          </p>
+          <a href="Course.html" class="hero-btn red-btn">EXPLORE COURSES</a>
+        </div>
+        <div class="about-col">
+          <img src="images/about.jpg" alt="Eduford Campus" />
+        </div>
+      </div>
     </section>
 
-
-
-    <!-- ------Footer----- -->
-
+    <!-- Footer -->
     <section class="footer">
-      <h4>About Us</h4>
+      <h4>About Eduford</h4>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod sunt
-        excepturi hic minima dolorem recusandae, <br />suscipit qui voluptatem!
-        Exercitationem, repellat!
+        Eduford is a modern and innovative educational platform dedicated to helping learners 
+        unlock their full potential through accessible, flexible, and engaging learning experiences.
       </p>
       <div class="icons">
         <i class="fab fa-facebook"></i>
-        <li class="fab fa-twitter"></li>
+        <i class="fab fa-twitter"></i>
         <i class="fab fa-instagram"></i>
         <i class="fab fa-linkedin"></i>
       </div>
-      <p>Made with <i class="fa-solid fa-heart"></i> Easy Tutorials</p>
+      <p>© 2025 by Harishna K. All rights reserved.</p>
     </section>
 
-    <!-- -----Toogle----- -->
+    <!-- Toggle Menu Script -->
     <script>
       var navLinks = document.getElementById("navLinks");
       function showMenu() {
