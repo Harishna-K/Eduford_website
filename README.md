@@ -2,6 +2,7 @@
 
 A modern, responsive educational website built using **HTML**, **CSS**, and **JavaScript**. Eduford showcases a fictional university with information about courses, global campuses, facilities, testimonials, and more. It’s designed to work seamlessly across devices with a clean UI and intuitive layout.
 
+![Eduford Home](images/demo-screenshot.png)
 
 ## 🚀 Features
 
